@@ -4,6 +4,7 @@ import { ZodError } from "zod";
 import { deleteUserSchema } from "@/validation/users/delete-user.validation";
 import { requireAdmin } from "@/Lib/require-admin";
 import { deleteUser } from "@/services/delete-user.service";
+import { getUserById } from "@/services/get-user-by-id.service";
 
 type RouteContext = {
   params: Promise<{

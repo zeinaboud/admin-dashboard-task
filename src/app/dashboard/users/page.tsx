@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation";
 
 import { UsersPage } from "@/components/users/UserPage";
-import { requireAdmin } from "@/Lib/require-admin";
+import { requireAdmin } from "@/lib/require-admin";
 
 export default async function UsersRoute() {
   const { error } = await requireAdmin();

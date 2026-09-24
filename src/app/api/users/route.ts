@@ -3,8 +3,8 @@ import { ZodError } from "zod";
 
 import { getUsersSchema } from "@/validation/users/get-users.validation";
 import { createUserSchema } from "@/validation/users/create-user.validation";
-import { requireAdmin } from "@/Lib/require-admin";
-import { requireAuth } from "@/Lib/require-auth";
+import { requireAdmin } from "@/lib/require-admin";
+import { requireAuth } from "@/lib/require-auth";
 import { getUsers } from "@/services/get-user.service";
 import { createUser } from "@/services/create-user.service";
 

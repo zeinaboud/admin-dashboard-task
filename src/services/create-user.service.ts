@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs";
 
-import { prisma } from "@/Lib/prisma";
+import { prisma } from "@/lib/prisma";
 import type { CreateUserInput } from "@/validation/users/create-user.validation";
 
 export async function createUser(input: CreateUserInput) {

@@ -1,4 +1,4 @@
-import { prisma } from "@/Lib/prisma";
+import { prisma } from "@/lib/prisma";
 
 export async function deleteUser(userId: string) {
   const user = await prisma.user.findUnique({

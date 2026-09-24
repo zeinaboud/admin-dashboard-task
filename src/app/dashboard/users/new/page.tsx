@@ -1,5 +1,5 @@
 import { AddUserForm } from "@/components/users/adduser/AddUserForm";
-import { requireAdmin } from "@/Lib/require-admin";
+import { requireAdmin } from "@/lib/require-admin";
 import { redirect } from "next/navigation";
 
 export default async function NewUserPage() {

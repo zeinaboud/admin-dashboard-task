@@ -1,4 +1,4 @@
-import { prisma } from "@/Lib/prisma";
+import { prisma } from "@/lib/prisma";
 import type { GetUsersParams } from "@/validation/users/get-users.validation";
 
 export async function getUsers(params: GetUsersParams) {

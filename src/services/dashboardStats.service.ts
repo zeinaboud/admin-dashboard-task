@@ -1,4 +1,4 @@
-import { prisma } from "@/Lib/prisma";
+import { prisma } from "@/lib/prisma";
 
 export type DashboardStats = {
   totalUsers: number;

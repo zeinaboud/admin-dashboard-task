@@ -37,6 +37,12 @@ const navigation = [
     icon: UserCircle,
     roles: ["ADMIN", "USER"],
   },
+  {
+    label: "Profile",
+    href: "/dashboard/profile",
+    icon: UserCircle,
+    roles: ["ADMIN", "USER"],
+  },
 ] as const;
 
 export function Sidebar({ role, mobile = false, onNavigate }: SidebarProps) {
